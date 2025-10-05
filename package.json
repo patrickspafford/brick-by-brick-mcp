@@ -11,9 +11,10 @@
     "build": "tsc && chmod 755 build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patrickspafford/brick-by-brick-mcp"
+    "url": "git+https://github.com/patrickspafford/brick-by-brick-mcp"
   },
   "files": [
     "build"
